@@ -1,0 +1,306 @@
+#title {
+  background-color: #ff4c68;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 10rem;
+}
+
+.footer-text {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+  color: white;
+}
+
+#footer {
+  background-color: white;
+  padding: 7rem;
+  text-align: center;
+  font-family: 'Montserrat-Black', sans-serif;
+  color: #8f8f8f;
+}
+
+.imagen-footer {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.imagen-footer:hover {
+  color: #ff4c68;
+}
+
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+  padding-bottom: 110px;
+  color: white;
+  position: relative;
+}
+
+.card-header {
+  font-weight: 900;
+  font-family: 'Montserrat-Black', sans-serif;
+}
+
+.testimonial-text {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: white;
+  padding-bottom: 5%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+h3 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.parrafor-caracteristicas {
+  font-family: 'Montserrat-Black', sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  color: #8f8f8f;
+}
+
+body {
+  font-family: 'Montserrat-Black', sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.imagen-dog {
+  transform: rotate(30deg);
+  width: 300px;
+  position: absolute;
+  left: 40%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#barra-nav {
+  padding-left: 0rem;
+  padding-bottom: 4.5rem;
+}
+
+li {
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.3rem;
+}
+
+#circulo {
+  color: #ef8172;
+}
+
+#circulo:hover {
+  color: #ff4c68;
+}
+
+#bullseye {
+  color: #ef8172;
+}
+
+#bullseye:hover {
+  color: #ff4c68;
+}
+
+#corazon {
+  color: #ef8172;
+}
+
+#corazon:hover {
+  color: #ff4c68;
+}
+
+.row {
+  padding-top: 90px;
+}
+
+#apple {
+  margin-right: 8px;
+}
+
+#google {
+  margin-right: 8px;
+}
+
+#botonApple {
+  margin-right: 20px;
+}
+
+#features {
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 10%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.features-box {
+  text-align: center;
+  margin-top: 50px;
+  padding: 5%;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonials-logo {
+  width: 12%;
+  border-radius: 70%;
+  margin: 10px;
+}
+
+.carousel-item {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 50px;
+  position: relative;
+  z-index: -1;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px;
+}
+
+.carousel-indicators {}
+
+#pricing {
+  text-align: center;
+  padding: 10rem;
+}
+
+.titulos-card {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+}
+
+.contenedor {
+  position: fixed;
+  margin-top: 200px;
+  text-decoration: none;
+  z-index: 3;
+}
+
+.div {
+  width: 100px;
+  height: 50px;
+  background-color: #35495e;
+  -webkit-transition: width 1s;
+  /* For Safari 3.1 to 6.0 */
+  transition: width 0.2s;
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 10px;
+  font-family: 'Bangers', cursive;
+  text-decoration: none;
+}
+
+.div:hover {
+  width: 150px;
+  background-color: #ff4c68;
+  text-decoration: none;
+}
+
+.azul:hover {
+  width: 150px;
+  background-color: #ff4c68;
+  text-decoration: none;
+}
+
+.orange:hover {
+  width: 150px;
+  background-color: #ff4c68;
+  text-decoration: none;
+}
+
+.grey:hover {
+  width: 150px;
+  background-color: #ff4c68;
+  text-decoration: none;
+  color: white;
+}
+
+.barra-google {
+  color: white;
+  text-decoration: none;
+  margin-top: 300px;
+}
+
+.barra-google:hover {
+  color: black;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .imagen-dog {
+    padding-top: 50px;
+    position: static;
+    transform: rotate(0);
+  }
+
+  #cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 1rem;
+
+  }
+
+  .footer-text {
+    padding-right: 100px;
+    padding-left: 100px;
+    font-size: 30px;
+  }
+}
+
+.footer-text {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.boton-footer {
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+.parrafo-footer{
+
+  text-align: center;
+  font-family: 'Montserrat-Black', sans-serif;
+  color: #8f8f8f;
+
+}
